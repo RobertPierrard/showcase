@@ -1,0 +1,19 @@
+This folder captures my research from this past summer while working at Vanderbilt University in the Heavy Ion
+research group of Professor Victoria Greene. Within the group, I worked directly with Professor Shengquan Tuo,
+  * Presented findings at the end of summer in Vanderbilt’s Summer Research Symposium - presentation and poster formats.
+  * Currently continuing this research with Prof. Tuo.
+  * Working to produce preprint/publication - aim to publish in Spring 2022.
+  * Applying to present at the 2022 APS April Meeting.
+
+Without context, much of this code is difficult to navigate.
+
+RESEARCH GOAL: Use a new model known as ANGANTYR to calculate the charged particle nuclear modification factor for
+Pb-Pb collisions at a square root center of mass energy of 5TeV, consitent with experiments done by the CMS
+collaboration at the LHC. 
+  * Generated over 2 billion lead-lead and proton-proton collisions.
+  * Utilized Vanderbilt’s ACCRE computer cluster to parallelize computations.
+  * Recorded and analyzed data using the ROOT data processing framework. Generated figures analogous to those produced
+    by the CMS collaboration, which were compared.
+  * Found shocking agreement between the ANGANTYR model and real data, despite ANGANTYR not including the medium
+    effects of quark-gluon-plasma.
+  * Results are validated by another similar study which has recently been released.
