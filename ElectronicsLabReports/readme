@@ -1,0 +1,33 @@
+Here you will find three lab reports which I completed for two different Electronics Lab Courses at Georgia Tech.
+These two courses, which account for a total of 10 credit hours, cover the following topics:
+  * Physics of current flows through wire/materials
+  * Physics of diodes, PN junctions, transistors, etc.
+  * Logic gates/digital circuits - eventually building simple components of a computer/microcontroller.
+  * Microcontroller programming and intro to FPGAs
+  * Signal analysis, measurement processes in physics, and error propogation through circuits.
+  
+These labs are not intended to be rigorous reports. Rather they document my work as a I go through each lab,
+which are designed for learning.
+
+I have included only a few labs from these courses:
+
+BoltzmannsConstant:
+    Use simulation and experiment to analyze the propogation of Johnson noise through a specific circuit. By
+    measuring this circuit we are able to calculate Boltzmann's constant. I am accurate within 1%.
+    
+FMTransmitterWriteUp:
+    This was a final project for the first electronics course. I build an FM transmitter for which I can connect
+    an audio jack and play music through a nearby radio. I did not design the circuit myself, but analyzed each
+    of its components.
+    
+MicrocontrollerInterrupts:
+    Demonstrates my experience with working with low level programming. While I used an Arduino, I did
+    not take the luxury of coding in the Arduino format. Rather, I directly programmed the ATMegga328p
+    microcontroller on-board the Arduino. Serious consideration regarding memory, time complexity, and the data
+    path were made. As such I heavily referenced the ATMegga328p datasheet.
+    
+PID_Controller:
+    Conceptual continuation of MicrocontrollerInterrups lab above. Using a mix of direct microcontroller
+    programming and Arduino programming styles I design and implement a PD controller to maintain the frequency
+    of a DC motor at any desired (achievable) setpoint value.
+    
