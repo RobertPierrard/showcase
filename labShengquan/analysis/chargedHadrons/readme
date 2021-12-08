@@ -1,0 +1,91 @@
+Directions for how to generate raa, starting with filelist for pbpb and pp collisions in pbpb and pp folders
+
+1. Put appropriate file list in pp and pbpb directories. Example starting directories below.
+
+ [pierrarj@gw341 template]$ ls -lt
+total 99
+drwxr-xr-x 2 pierrarj cms 4096 Jul 23 11:12 pp
+drwxr-xr-x 2 pierrarj cms 4096 Jul 23 11:11 pbpb
+-rw-r--r-- 1 pierrarj cms  111 Jul 23 11:04 ncoll_averaged.txt
+-rw-r--r-- 1 pierrarj cms  519 Jul 23 11:04 cmsVariables.h
+-rw-r--r-- 1 pierrarj cms 4238 Jul 23 11:03 raa.cc
+-rw-r--r-- 1 pierrarj cms 6090 Jul 23 11:02 centralityTree.cc
+-rw-r--r-- 1 pierrarj cms 6343 Jul 23 11:02 centralityBoundaries.cc
+[pierrarj@gw341 template]$ ls -lt pbpb
+total 65
+-rw-r--r-- 1 pierrarj cms 8980 Jul 23 11:02 fileList_pbpb5tev_ba1.list
+-rw-r--r-- 1 pierrarj cms 3289 Jul 23 11:02 analysisPtSpectraPbpb.cc
+-rw-r--r-- 1 pierrarj cms 8133 Jul 23 11:02 ptSpectraPbpb.cc
+-rw-r--r-- 1 pierrarj cms  519 Jul 23 11:02 cmsVariables.h
+[pierrarj@gw341 template]$ ls -lt pp
+total 65
+-rw-r--r-- 1 pierrarj cms 2500 Jul 23 11:02 analysisPtSpectraPp.cc
+-rw-r--r-- 1 pierrarj cms  531 Jul 23 11:02 cmsVariables.h
+-rw-r--r-- 1 pierrarj cms 8028 Jul 23 11:02 ptSpectraPp.cc
+-rw-r--r-- 1 pierrarj cms 8580 Jul 23 11:02 fileList_pp5tev_ba5.list
+
+
+2. Use ROOT to run centralityBoundaries.cc on pbpb and pp data. Ex:
+
+     centralityBoundares("pp/fileList_pp5tev_ba5.list","pp/ppCentralityBins.txt")
+     centralityBoundares("pbpb/fileList_pbpb5tev_ba1.list","pbpb/pbpbCentralityBins.txt")
+
+3. Navigate to pp and use ROOT to run ptSpectraPp.cc Ex:
+
+     ptSpectraPp("ppCentralityBins.txt","fileList_pp5tev_ba5.list")
+
+4. If you want to produce normalized ptSpectra graphs, run analysisPtSpectraPp.cc. It will create an output with "normalize"
+   appended to the input file name. Ex: "output_hist_ppTest.root" -> "normalized_output_hist_ppTest.root"  
+
+     analysisPtSpectraPp("output_hist_ppTest.root")
+
+5. Repeat step 3 and 4 but in the pbpb directory with pbpb data.
+
+6. Using ROOT run raa.c inputing the output files from steps 3. Make sure to put the pbpb file first. Ex:
+
+     raa("output_hist_pbpbTest.root", "output_hist_ppTest.root");
+
+     You know have an output root file titled histogram_raa.root which contains RAA for the events provided.
+
+--------------------------------------------------------------------------------------------------------
+PLOTTING DATA
+
+The figures directory contains the root macros for plotting your data produced above...
+
+1. plotter_ptSpectra.cc will produce the ptSpectra given the normalizedPtSpectra data from step 4. Ex:
+
+     plotter_ptSpectra("../pbpb/normalized_output_hist_pbpb.root", "../pp/normalized_output_hist_pp.root")
+
+2. plotter_cmsDataPtSpectra.cc will produce the pt spectra for real data from root files specified by a file list. Ex:
+
+     fileList_cmsData_ptSpectra.list contains a list of the locations for root files in the cmsData directory.
+     plotter_cmsDataPtSpectra("fileList_cmsData_ptSpectra.list") 
+
+
+--------------------------------------------------------------------------------------------------------
+USING LARGE DATA SETS
+
+The slurm directory contains a similar structure to the main directory, with a pbpb and a pp subdirectory.
+It contains the same code but modified for use with the accre computing cluster.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1649 @@
+32272641
+ba500jb65
+cn465
+Error in <TGClient::TGClient>: can't open display "localhost:12.0", switching to batch mode...
+ In case you run from a remote ssh session, reconnect with ssh -Y
+
+ *------------------------------------------------------------------------------------* 
+ |                                                                                    | 
+ |  *------------------------------------------------------------------------------*  | 
+ |  |                                                                              |  | 
+ |  |                                                                              |  | 
+ |  |   PPP   Y   Y  TTTTT  H   H  III    A      Welcome to the Lund Monte Carlo!  |  | 
+ |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.305      |  | 
+ |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change:  3 May 2021  |  | 
+ |  |   P       Y      T    H   H   I   A   A                                      |  | 
+ |  |   P       Y      T    H   H  III  A   A    Now is 11 Sep 2021 at 23:49:47    |  | 
+ |  |                                                                              |  | 
+ |  |   Christian Bierlich;  Department of Astronomy and Theoretical Physics,      |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: christian.bierlich@thep.lu.se                                   |  | 
+ |  |   Nishita Desai;  Department of Theoretical Physics, Tata Institute,         |  | 
+ |  |      Homi Bhabha Road, Mumbai 400005, India;                                 |  | 
+ |  |      e-mail: desai@theory.tifr.res.in                                        |  | 
+ |  |   Leif Gellersen;  Department of Astronomy and Theoretical Physics,          |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: leif.gellersen@thep.lu.se                                       |  | 
+ |  |   Ilkka Helenius;  Department of Physics, University of Jyvaskyla,           |  | 
+ |  |      P.O. Box 35, FI-40014 University of Jyvaskyla, Finland;                 |  | 
+ |  |      e-mail: ilkka.m.helenius@jyu.fi                                         |  | 
+ |  |   Philip Ilten;  Department of Physics,                                      |  | 
+ |  |      University of Cincinnati, Cincinnati, OH 45221, USA;                    |  | 
+ |  |      e-mail: philten@cern.ch                                                 |  | 
+ |  |   Leif Lonnblad;  Department of Astronomy and Theoretical Physics,           |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: leif.lonnblad@thep.lu.se                                        |  | 
+ |  |   Stephen Mrenna;  Computing Division, Simulations Group,                    |  | 
+ |  |      Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA;  |  | 
+ |  |      e-mail: mrenna@fnal.gov                                                 |  | 
+ |  |   Stefan Prestel;  Department of Astronomy and Theoretical Physics,          |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: stefan.prestel@thep.lu.se                                       |  | 
+ |  |   Christian Preuss;  School of Physics and Astronomy,                        |  | 
+ |  |      Monash University, PO Box 27, 3800 Melbourne, Australia;                |  | 
+ |  |      e-mail: christian.preuss@monash.edu                                     |  | 
+ |  |   Torbjorn Sjostrand;  Department of Astronomy and Theoretical Physics,      |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: torbjorn@thep.lu.se                                             |  | 
+ |  |   Peter Skands;  School of Physics and Astronomy,                            |  | 
+ |  |      Monash University, PO Box 27, 3800 Melbourne, Australia;                |  | 
+ |  |      e-mail: peter.skands@monash.edu                                         |  | 
+ |  |   Marius Utheim;  Department of Astronomy and Theoretical Physics,           |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: marius.utheim@thep.lu.se                                        |  | 
+ |  |   Rob Verheyen;  Department of Physics and Astronomy,                        |  | 
+ |  |      University College London, Gower St, Bloomsbury, London WC1E 6BT, UK;   |  | 
+ |  |      e-mail: r.verheyen@ucl.ac.uk                                            |  | 
+ |  |                                                                              |  | 
+ |  |   The main program reference is 'An Introduction to PYTHIA 8.2',             |  | 
+ |  |   T. Sjostrand et al, Comput. Phys. Commun. 191 (2015) 159                   |  | 
+ |  |   [arXiv:1410.3012 [hep-ph]]                                                 |  | 
+ |  |                                                                              |  | 
+ |  |   The main physics reference is the 'PYTHIA 6.4 Physics and Manual',         |  | 
+ |  |   T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026 [hep-ph/0603175]  |  | 
+ |  |                                                                              |  | 
+ |  |   An archive of program versions and documentation is found on the web:      |  | 
+ |  |   http://www.thep.lu.se/Pythia                                               |  | 
+ |  |                                                                              |  | 
+ |  |   This program is released under the GNU General Public Licence version 2.   |  | 
+ |  |   Please respect the MCnet Guidelines for Event Generator Authors and Users. |  | 
+ |  |                                                                              |  | 
+ |  |   Disclaimer: this program comes without any guarantees.                     |  | 
+ |  |   Beware of errors and use common sense when interpreting results.           |  | 
+ |  |                                                                              |  | 
+ |  |   Copyright (C) 2021 Torbjorn Sjostrand                                      |  | 
+ |  |                                                                              |  | 
+ |  |                                                                              |  | 
+ |  *------------------------------------------------------------------------------*  | 
+ |                                                                                    | 
+ *------------------------------------------------------------------------------------* 
+
+------------------------------------------
+Batch Number: 500
+Job Num: 65
+Random:seed = 500000066
+------------------------------------------
+ *------ HeavyIon fitting of SubCollisionModel to cross sections ------* 
+ |                    Total:    86.02 mb      (+-  2%)                 | 
+ |          non-diffractive:    47.72 mb      (+-  2%)                 | 
+ |           XX diffractive:     7.73 mb      (+- 10%)                 | 
+ |       wounded target (B):    61.52 mb      (+-  5%)                 | 
+ |   wounded projectile (A):    61.52 mb      (+-  5%)                 | 
+ |          AXB diffractive:     0.00 mb      not used                 | 
+ |                  elastic:    18.44 mb      (+- 10%)                 | 
+ |          elastic b-slope:    20.85 GeV^-2  not used                 | 
+ |                                                                     | 
+ |   Using a genetic algorithm                                         | 
+ |               Generation    best Chi2/Ndf                           | 
+ |                        0:     0.44                                  | 
+ |                        1:     0.37                                  | 
+ |                        2:     0.09                                  | 
+ |                        3:     0.07                                  | 
+ |                        4:     0.07                                  | 
+ |                        5:     0.03                                  | 
+ |                        6:     0.03                                  | 
+ |                        7:     0.04                                  | 
+ |                        8:     0.03                                  | 
+ |                        9:     0.03                                  | 
+ |                       10:     0.02                                  | 
+ |                       11:     0.03                                  | 
+ |                       12:     0.02                                  | 
+ |                       13:     0.02                                  | 
+ |                       14:     0.03                                  | 
+ |                       15:     0.02                                  | 
+ |                       16:     0.02                                  | 
+ |                       17:     0.02                                  | 
+ |                       18:     0.02                                  | 
+ |                       19:     0.02                                  | 
+ |                                                                     | 
+ |     Resulting cross sections (target value)                         | 
+ |                    Total:    85.75 *( 86.02) mb                     | 
+ |          non-diffractive:    47.66 *( 47.72) mb                     | 
+ |           XX diffractive:     7.90 *(  7.73) mb                     | 
+ |       wounded target (B):    61.34 *( 61.52) mb                     | 
+ |   wounded projectile (A):    61.33 *( 61.52) mb                     | 
+ |          AXB diffractive:     0.00  (  0.00) mb                     | 
+ |                  elastic:    18.64 *( 18.44) mb                     | 
+ |          elastic b-slope:    24.50  ( 20.85) GeV^-2                 | 
+ |                 Chi2/Ndf:     0.03                                  | 
+ |                                                                     | 
+ |     Resulting parameters:                                           | 
+ |                        0:    13.91                                  | 
+ |                        1:     1.78                                  | 
+ |                        2:     0.22                                  | 
+ |                                                                     | 
+ |     Resulting non-diffractive average impact parameter:             | 
+ |                      <b>:     1.21 +- 0.01 fm                       | 
+ |                                                                     | 
+ *--- End HeavyIon fitting of parameters in nucleon collision model ---* 
+
+HeavyIon Info: To avoid refitting, use the following settings for next run:
+  HeavyIon:SigFitNGen = 0
+  HeavyIon:SigFitDefPar = 13.91,1.78,0.22,0.0,0.0,0.0,0.0,0.0
+ HeavyIon Info: Initializing impact parameter generator with width 3.31 fm.
+ Angantyr Info: Initializing signal process (pp).
+
+ *-------  PYTHIA Process Initialization  --------------------------*
+ |                                                                  |
+ | We collide p+ with p+ at a CM energy of 5.020e+03 GeV            |
+ |                                                                  |
+ |------------------------------------------------------------------|
+ |                                                    |             |
+ | Subprocess                                    Code |   Estimated |
+ |                                                    |    max (mb) |
+ |                                                    |             |
+ |------------------------------------------------------------------|
+ |                                                    |             |
+ | f fbar -> gamma*/Z0                            221 |   5.733e-05 |
+ |                                                                  |
+ *-------  End PYTHIA Process Initialization -----------------------*
+
+ *-------  PYTHIA Multiparton Interactions Initialization  ---------* 
+ |                                                                  | 
+ |                   sigmaNonDiffractive =    47.72 mb              | 
+ |                                                                  | 
+ |    pT0 =  2.12 gives sigmaInteraction =   211.26 mb: accepted    | 
+ |                                                                  | 
+ *-------  End PYTHIA Multiparton Interactions Initialization  -----* 
+
+ *-------  PYTHIA Flag + Mode + Parm + Word + FVec + MVec + PVec + WVec Settings (changes only)  ------------------* 
+ |                                                                                                                 | 
+ | Name                                          |                      Now |      Default         Min         Max | 
+ |                                               |                          |                                      | 
+ | Beams:eA                                      |                 2510.000 |     7000.000         0.0             | 
+ | Beams:eB                                      |                 2510.000 |     7000.000         0.0             | 
+ | Beams:eCM                                     |                 5020.000 |    14000.000         0.0             | 
+ | Beams:frameType                               |                        2 |            1           1           5 | 
+ | HadronLevel:all                               |                      off |           on                         | 
+ | Next:numberCount                              |                        0 |         1000           0             | 
+ | Next:numberShowEvent                          |                        0 |            1           0             | 
+ | Next:numberShowInfo                           |                        0 |            1           0             | 
+ | Next:numberShowLHA                            |                        0 |            1           0             | 
+ | Next:numberShowProcess                        |                        0 |            1           0             | 
+ | PhaseSpace:mHatMax                            |                120.00000 |     -1.00000                         | 
+ | PhaseSpace:mHatMin                            |                 80.00000 |      4.00000         0.0             | 
+ | Random:seed                                   |                500000066 |           -1               900000000 | 
+ | Random:setSeed                                |                       on |          off                         | 
+ | WeakSingleBoson:ffbar2gmZ                     |                       on |          off                         | 
+ |                                                                                                                 | 
+ *-------  End PYTHIA Flag + Mode + Parm + Word + FVec + MVec + PVec + WVec Settings  -----------------------------* 
+
+ --------  PYTHIA Particle Data Table (changed only)  ------------------------------------------------------------------------------
+ 
+      id   name            antiName         spn chg col      m0        mWidth      mMin       mMax       tau0    res dec ext vis wid
+             no onMode   bRatio   meMode     products 
+
+ no particle data has been changed from its default value 
+
+ --------  End PYTHIA Particle Data Table  -----------------------------------------------------------------------------------------
+
+Generating a few signal events for signal process (pp) to build up statistics
+ Angantyr Info: Initializing minimum bias processes.
+
+ *-------  PYTHIA Process Initialization  --------------------------*
+ |                                                                  |
+ | We collide p+ with p+ at a CM energy of 5.020e+03 GeV            |
+ |                                                                  |
+ |------------------------------------------------------------------|
+ |                                                    |             |
+ | Subprocess                                    Code |   Estimated |
+ |                                                    |    max (mb) |
+ |                                                    |             |
+ |------------------------------------------------------------------|
+ |                                                    |             |
+ | non-diffractive                                101 |   4.772e+01 |
+ | A B -> A B elastic                             102 |   1.844e+01 |
+ | A B -> X B single diffractive                  103 |   6.065e+00 |
+ | A B -> A X single diffractive                  104 |   6.065e+00 |
+ | A B -> X X double diffractive                  105 |   7.733e+00 |
+ | A B -> A X B central diffractive               106 |   0.000e+00 |
+ |                                                                  |
+ *-------  End PYTHIA Process Initialization -----------------------*
+
+ *-------  PYTHIA Multiparton Interactions Initialization  ---------* 
+ |                                                                  | 
+ |                   sigmaNonDiffractive =    47.72 mb              | 
+ |                                                                  | 
+ |    pT0 =  2.12 gives sigmaInteraction =   211.71 mb: accepted    | 
+ |                                                                  | 
+ *-------  End PYTHIA Multiparton Interactions Initialization  -----* 
+
+ *-------  PYTHIA Multiparton Interactions Initialization  ---------* 
+ |                                                                  | 
+ |                          diffraction XB                          | 
+ |                                                                  | 
+ |   diffractive mass = 1.00e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.56 gives sigmaInteraction =    25.08 mb: accepted    | 
+ |   diffractive mass = 1.61e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.62 gives sigmaInteraction =    24.10 mb: accepted    | 
+ |   diffractive mass = 2.60e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.68 gives sigmaInteraction =    22.33 mb: accepted    | 
+ |   diffractive mass = 4.20e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.76 gives sigmaInteraction =    20.11 mb: accepted    | 
+ |   diffractive mass = 6.78e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.84 gives sigmaInteraction =    18.13 mb: accepted    | 
+ |   diffractive mass = 1.09e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.93 gives sigmaInteraction =    17.09 mb: accepted    | 
+ |   diffractive mass = 1.76e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.03 gives sigmaInteraction =    16.62 mb: accepted    | 
+ |   diffractive mass = 2.85e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.15 gives sigmaInteraction =    17.10 mb: accepted    | 
+ |   diffractive mass = 4.59e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.27 gives sigmaInteraction =    18.56 mb: accepted    | 
+ |   diffractive mass = 7.41e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.41 gives sigmaInteraction =    21.25 mb: accepted    | 
+ |   diffractive mass = 1.20e+03 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.56 gives sigmaInteraction =    25.07 mb: accepted    | 
+ |   diffractive mass = 1.93e+03 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.73 gives sigmaInteraction =    30.09 mb: accepted    | 
+ |   diffractive mass = 3.11e+03 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.92 gives sigmaInteraction =    36.33 mb: accepted    | 
+ |   diffractive mass = 5.02e+03 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    43.98 mb: accepted    | 
+ |                                                                  | 
+ *-------  End PYTHIA Multiparton Interactions Initialization  -----* 
+ PYTHIA Warning in MultipartonInteractions::init: maximum increased by factor 4.166
+
+ *-------  PYTHIA Multiparton Interactions Initialization  ---------* 
+ |                                                                  | 
+ |                          diffraction AX                          | 
+ |                                                                  | 
+ |   diffractive mass = 1.00e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.56 gives sigmaInteraction =    24.94 mb: accepted    | 
+ |   diffractive mass = 1.61e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.62 gives sigmaInteraction =    24.11 mb: accepted    | 
+ |   diffractive mass = 2.60e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.68 gives sigmaInteraction =    22.29 mb: accepted    | 
+ |   diffractive mass = 4.20e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.76 gives sigmaInteraction =    20.11 mb: accepted    | 
+ |   diffractive mass = 6.78e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.84 gives sigmaInteraction =    18.21 mb: accepted    | 
+ |   diffractive mass = 1.09e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.93 gives sigmaInteraction =    16.89 mb: accepted    | 
+ |   diffractive mass = 1.76e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.03 gives sigmaInteraction =    16.52 mb: accepted    | 
+ |   diffractive mass = 2.85e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.15 gives sigmaInteraction =    17.02 mb: accepted    | 
+ |   diffractive mass = 4.59e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.27 gives sigmaInteraction =    18.55 mb: accepted    | 
+ |   diffractive mass = 7.41e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.41 gives sigmaInteraction =    21.23 mb: accepted    | 
+ |   diffractive mass = 1.20e+03 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.56 gives sigmaInteraction =    25.12 mb: accepted    | 
+ |   diffractive mass = 1.93e+03 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.73 gives sigmaInteraction =    30.21 mb: accepted    | 
+ |   diffractive mass = 3.11e+03 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.92 gives sigmaInteraction =    36.56 mb: accepted    | 
+ |   diffractive mass = 5.02e+03 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    43.39 mb: accepted    | 
+ |                                                                  | 
+ *-------  End PYTHIA Multiparton Interactions Initialization  -----* 
+
+ *-------  PYTHIA Multiparton Interactions Initialization  ---------* 
+ |                                                                  | 
+ |                          diffraction AXB                         | 
+ |                                                                  | 
+ |   diffractive mass = 1.00e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.56 gives sigmaInteraction =     5.91 mb: rejected    | 
+ |    pT0 =  0.50 gives sigmaInteraction =     8.79 mb: rejected    | 
+ |    pT0 =  0.45 gives sigmaInteraction =    13.14 mb: accepted    | 
+ |   diffractive mass = 1.61e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.62 gives sigmaInteraction =     4.82 mb: rejected    | 
+ |    pT0 =  0.56 gives sigmaInteraction =     6.99 mb: rejected    | 
+ |    pT0 =  0.50 gives sigmaInteraction =    10.25 mb: rejected    | 
+ |    pT0 =  0.45 gives sigmaInteraction =    15.27 mb: accepted    | 
+ |   diffractive mass = 2.60e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.68 gives sigmaInteraction =     3.86 mb: rejected    | 
+ |    pT0 =  0.62 gives sigmaInteraction =     5.50 mb: rejected    | 
+ |    pT0 =  0.55 gives sigmaInteraction =     7.87 mb: rejected    | 
+ |    pT0 =  0.50 gives sigmaInteraction =    11.41 mb: accepted    | 
+ |   diffractive mass = 4.20e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.76 gives sigmaInteraction =     3.15 mb: rejected    | 
+ |    pT0 =  0.68 gives sigmaInteraction =     4.39 mb: rejected    | 
+ |    pT0 =  0.61 gives sigmaInteraction =     6.13 mb: rejected    | 
+ |    pT0 =  0.55 gives sigmaInteraction =     8.75 mb: rejected    | 
+ |    pT0 =  0.50 gives sigmaInteraction =    12.44 mb: accepted    | 
+ |   diffractive mass = 6.78e+01 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.84 gives sigmaInteraction =     2.70 mb: rejected    | 
+ |    pT0 =  0.76 gives sigmaInteraction =     3.63 mb: rejected    | 
+ |    pT0 =  0.68 gives sigmaInteraction =     4.94 mb: rejected    | 
+ |    pT0 =  0.61 gives sigmaInteraction =     6.77 mb: rejected    | 
+ |    pT0 =  0.55 gives sigmaInteraction =     9.48 mb: rejected    | 
+ |    pT0 =  0.50 gives sigmaInteraction =    13.21 mb: accepted    | 
+ |   diffractive mass = 1.09e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  0.93 gives sigmaInteraction =     2.55 mb: rejected    | 
+ |    pT0 =  0.84 gives sigmaInteraction =     3.28 mb: rejected    | 
+ |    pT0 =  0.76 gives sigmaInteraction =     4.26 mb: rejected    | 
+ |    pT0 =  0.68 gives sigmaInteraction =     5.57 mb: rejected    | 
+ |    pT0 =  0.61 gives sigmaInteraction =     7.49 mb: rejected    | 
+ |    pT0 =  0.55 gives sigmaInteraction =    10.20 mb: rejected    | 
+ |    pT0 =  0.50 gives sigmaInteraction =    14.13 mb: accepted    | 
+ |   diffractive mass = 1.76e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.03 gives sigmaInteraction =     2.53 mb: rejected    | 
+ |    pT0 =  0.93 gives sigmaInteraction =     3.15 mb: rejected    | 
+ |    pT0 =  0.84 gives sigmaInteraction =     3.96 mb: rejected    | 
+ |    pT0 =  0.75 gives sigmaInteraction =     5.00 mb: rejected    | 
+ |    pT0 =  0.68 gives sigmaInteraction =     6.41 mb: rejected    | 
+ |    pT0 =  0.61 gives sigmaInteraction =     8.40 mb: rejected    | 
+ |    pT0 =  0.55 gives sigmaInteraction =    11.16 mb: accepted    | 
+ |   diffractive mass = 2.85e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.15 gives sigmaInteraction =     2.73 mb: rejected    | 
+ |    pT0 =  1.03 gives sigmaInteraction =     3.33 mb: rejected    | 
+ |    pT0 =  0.93 gives sigmaInteraction =     4.02 mb: rejected    | 
+ |    pT0 =  0.83 gives sigmaInteraction =     4.86 mb: rejected    | 
+ |    pT0 =  0.75 gives sigmaInteraction =     6.02 mb: rejected    | 
+ |    pT0 =  0.68 gives sigmaInteraction =     7.47 mb: rejected    | 
+ |    pT0 =  0.61 gives sigmaInteraction =     9.55 mb: rejected    | 
+ |    pT0 =  0.55 gives sigmaInteraction =    12.43 mb: accepted    | 
+ |   diffractive mass = 4.59e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.27 gives sigmaInteraction =     3.08 mb: rejected    | 
+ |    pT0 =  1.14 gives sigmaInteraction =     3.65 mb: rejected    | 
+ |    pT0 =  1.03 gives sigmaInteraction =     4.30 mb: rejected    | 
+ |    pT0 =  0.93 gives sigmaInteraction =     5.11 mb: rejected    | 
+ |    pT0 =  0.83 gives sigmaInteraction =     6.10 mb: rejected    | 
+ |    pT0 =  0.75 gives sigmaInteraction =     7.30 mb: rejected    | 
+ |    pT0 =  0.67 gives sigmaInteraction =     8.89 mb: rejected    | 
+ |    pT0 =  0.61 gives sigmaInteraction =    10.98 mb: rejected    | 
+ |    pT0 =  0.55 gives sigmaInteraction =    13.99 mb: accepted    | 
+ |   diffractive mass = 7.41e+02 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.41 gives sigmaInteraction =     3.51 mb: rejected    | 
+ |    pT0 =  1.27 gives sigmaInteraction =     4.13 mb: rejected    | 
+ |    pT0 =  1.14 gives sigmaInteraction =     4.88 mb: rejected    | 
+ |    pT0 =  1.03 gives sigmaInteraction =     5.60 mb: rejected    | 
+ |    pT0 =  0.92 gives sigmaInteraction =     6.45 mb: rejected    | 
+ |    pT0 =  0.83 gives sigmaInteraction =     7.59 mb: rejected    | 
+ |    pT0 =  0.75 gives sigmaInteraction =     8.96 mb: rejected    | 
+ |    pT0 =  0.67 gives sigmaInteraction =    10.66 mb: rejected    | 
+ |    pT0 =  0.61 gives sigmaInteraction =    12.81 mb: accepted    | 
+ |   diffractive mass = 1.20e+03 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.56 gives sigmaInteraction =     4.08 mb: rejected    | 
+ |    pT0 =  1.40 gives sigmaInteraction =     4.74 mb: rejected    | 
+ |    pT0 =  1.26 gives sigmaInteraction =     5.49 mb: rejected    | 
+ |    pT0 =  1.14 gives sigmaInteraction =     6.29 mb: rejected    | 
+ |    pT0 =  1.02 gives sigmaInteraction =     7.28 mb: rejected    | 
+ |    pT0 =  0.92 gives sigmaInteraction =     8.35 mb: rejected    | 
+ |    pT0 =  0.83 gives sigmaInteraction =     9.53 mb: rejected    | 
+ |    pT0 =  0.75 gives sigmaInteraction =    11.10 mb: accepted    | 
+ |   diffractive mass = 1.93e+03 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.73 gives sigmaInteraction =     4.69 mb: rejected    | 
+ |    pT0 =  1.56 gives sigmaInteraction =     5.40 mb: rejected    | 
+ |    pT0 =  1.40 gives sigmaInteraction =     6.26 mb: rejected    | 
+ |    pT0 =  1.26 gives sigmaInteraction =     7.24 mb: rejected    | 
+ |    pT0 =  1.13 gives sigmaInteraction =     8.27 mb: rejected    | 
+ |    pT0 =  1.02 gives sigmaInteraction =     9.34 mb: rejected    | 
+ |    pT0 =  0.92 gives sigmaInteraction =    10.64 mb: rejected    | 
+ |    pT0 =  0.83 gives sigmaInteraction =    11.87 mb: accepted    | 
+ |   diffractive mass = 3.11e+03 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  1.92 gives sigmaInteraction =     5.34 mb: rejected    | 
+ |    pT0 =  1.72 gives sigmaInteraction =     6.22 mb: rejected    | 
+ |    pT0 =  1.55 gives sigmaInteraction =     7.17 mb: rejected    | 
+ |    pT0 =  1.40 gives sigmaInteraction =     8.17 mb: rejected    | 
+ |    pT0 =  1.26 gives sigmaInteraction =     9.38 mb: rejected    | 
+ |    pT0 =  1.13 gives sigmaInteraction =    10.48 mb: rejected    | 
+ |    pT0 =  1.02 gives sigmaInteraction =    11.73 mb: accepted    | 
+ |   diffractive mass = 5.02e+03 GeV and sigmaNorm =    10.00 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =     5.88 mb: rejected    | 
+ |    pT0 =  1.91 gives sigmaInteraction =     6.97 mb: rejected    | 
+ |    pT0 =  1.72 gives sigmaInteraction =     8.06 mb: rejected    | 
+ |    pT0 =  1.55 gives sigmaInteraction =     9.40 mb: rejected    | 
+ |    pT0 =  1.39 gives sigmaInteraction =    10.64 mb: rejected    | 
+ |    pT0 =  1.25 gives sigmaInteraction =    11.84 mb: accepted    | 
+ |                                                                  | 
+ *-------  End PYTHIA Multiparton Interactions Initialization  -----* 
+
+ *-------  PYTHIA Flag + Mode + Parm + Word + FVec + MVec + PVec + WVec Settings (changes only)  ------------------* 
+ |                                                                                                                 | 
+ | Name                                          |                      Now |      Default         Min         Max | 
+ |                                               |                          |                                      | 
+ | Beams:eA                                      |                 2510.000 |     7000.000         0.0             | 
+ | Beams:eB                                      |                 2510.000 |     7000.000         0.0             | 
+ | Beams:eCM                                     |                 5020.000 |    14000.000         0.0             | 
+ | Beams:frameType                               |                        2 |            1           1           5 | 
+ | HadronLevel:all                               |                      off |           on                         | 
+ | Next:numberCount                              |                        0 |         1000           0             | 
+ | Next:numberShowEvent                          |                        0 |            1           0             | 
+ | Next:numberShowInfo                           |                        0 |            1           0             | 
+ | Next:numberShowLHA                            |                        0 |            1           0             | 
+ | Next:numberShowProcess                        |                        0 |            1           0             | 
+ | Random:seed                                   |                500000066 |           -1               900000000 | 
+ | Random:setSeed                                |                       on |          off                         | 
+ | SoftQCD:all                                   |                       on |          off                         | 
+ | Tune:ee                                       |                        0 |            7          -1           7 | 
+ | Tune:pp                                       |                        0 |           14          -1          34 | 
+ |                                                                                                                 | 
+ *-------  End PYTHIA Flag + Mode + Parm + Word + FVec + MVec + PVec + WVec Settings  -----------------------------* 
+
+ --------  PYTHIA Particle Data Table (changed only)  ------------------------------------------------------------------------------
+ 
+      id   name            antiName         spn chg col      m0        mWidth      mMin       mMax       tau0    res dec ext vis wid
+             no onMode   bRatio   meMode     products 
+
+ no particle data has been changed from its default value 
+
+ --------  End PYTHIA Particle Data Table  -----------------------------------------------------------------------------------------
+
+ Angantyr Info: Initializing secondary absorptive processes as single diffraction..
+
+ *-------  PYTHIA Process Initialization  --------------------------*
+ |                                                                  |
+ | We collide p+ with p+ at a CM energy of 5.020e+03 GeV            |
+ |                                                                  |
+ |------------------------------------------------------------------|
+ |                                                    |             |
+ | Subprocess                                    Code |   Estimated |
+ |                                                    |    max (mb) |
+ |                                                    |             |
+ |------------------------------------------------------------------|
+ |                                                    |             |
+ | A B -> X B single diffractive                  103 |   6.065e+00 |
+ | A B -> A X single diffractive                  104 |   6.065e+00 |
+ |                                                                  |
+ *-------  End PYTHIA Process Initialization -----------------------*
+
+ *-------  PYTHIA Multiparton Interactions Initialization  ---------* 
+ |                                                                  | 
+ |                   sigmaNonDiffractive =    47.72 mb              | 
+ |                                                                  | 
+ |    pT0 =  2.12 gives sigmaInteraction =   211.50 mb: accepted    | 
+ |                                                                  | 
+ *-------  End PYTHIA Multiparton Interactions Initialization  -----* 
+
+ *-------  PYTHIA Multiparton Interactions Initialization  ---------* 
+ |                                                                  | 
+ |                          diffraction XB                          | 
+ |                                                                  | 
+ |   diffractive mass = 1.00e+01 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    15.82 mb: rejected    | 
+ |    pT0 =  1.91 gives sigmaInteraction =    24.94 mb: rejected    | 
+ |    pT0 =  1.72 gives sigmaInteraction =    39.07 mb: rejected    | 
+ |    pT0 =  1.55 gives sigmaInteraction =    61.27 mb: accepted    | 
+ |   diffractive mass = 1.61e+01 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    21.14 mb: rejected    | 
+ |    pT0 =  1.91 gives sigmaInteraction =    32.38 mb: rejected    | 
+ |    pT0 =  1.72 gives sigmaInteraction =    49.42 mb: rejected    | 
+ |    pT0 =  1.55 gives sigmaInteraction =    75.84 mb: accepted    | 
+ |   diffractive mass = 2.60e+01 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    27.88 mb: rejected    | 
+ |    pT0 =  1.91 gives sigmaInteraction =    40.93 mb: rejected    | 
+ |    pT0 =  1.72 gives sigmaInteraction =    60.92 mb: accepted    | 
+ |   diffractive mass = 4.20e+01 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    37.05 mb: rejected    | 
+ |    pT0 =  1.91 gives sigmaInteraction =    52.80 mb: accepted    | 
+ |   diffractive mass = 6.78e+01 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    49.36 mb: rejected    | 
+ |    pT0 =  1.91 gives sigmaInteraction =    68.34 mb: accepted    | 
+ |   diffractive mass = 1.09e+02 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    64.49 mb: accepted    | 
+ |   diffractive mass = 1.76e+02 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    83.04 mb: accepted    | 
+ |   diffractive mass = 2.85e+02 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   103.21 mb: accepted    | 
+ |   diffractive mass = 4.59e+02 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   124.00 mb: accepted    | 
+ |   diffractive mass = 7.41e+02 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   146.41 mb: accepted    | 
+ |   diffractive mass = 1.20e+03 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   164.83 mb: accepted    | 
+ |   diffractive mass = 1.93e+03 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   182.56 mb: accepted    | 
+ |   diffractive mass = 3.11e+03 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   189.38 mb: accepted    | 
+ |   diffractive mass = 5.02e+03 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   195.41 mb: accepted    | 
+ |                                                                  | 
+ *-------  End PYTHIA Multiparton Interactions Initialization  -----* 
+ PYTHIA Warning in MultipartonInteractions::init: maximum increased by factor 2.470
+
+ *-------  PYTHIA Multiparton Interactions Initialization  ---------* 
+ |                                                                  | 
+ |                          diffraction AX                          | 
+ |                                                                  | 
+ |   diffractive mass = 1.00e+01 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    15.82 mb: rejected    | 
+ |    pT0 =  1.91 gives sigmaInteraction =    24.88 mb: rejected    | 
+ |    pT0 =  1.72 gives sigmaInteraction =    39.31 mb: rejected    | 
+ |    pT0 =  1.55 gives sigmaInteraction =    61.35 mb: accepted    | 
+ |   diffractive mass = 1.61e+01 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    21.09 mb: rejected    | 
+ |    pT0 =  1.91 gives sigmaInteraction =    32.22 mb: rejected    | 
+ |    pT0 =  1.72 gives sigmaInteraction =    49.11 mb: rejected    | 
+ |    pT0 =  1.55 gives sigmaInteraction =    75.09 mb: accepted    | 
+ |   diffractive mass = 2.60e+01 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    27.87 mb: rejected    | 
+ |    pT0 =  1.91 gives sigmaInteraction =    40.95 mb: rejected    | 
+ |    pT0 =  1.72 gives sigmaInteraction =    60.97 mb: accepted    | 
+ |   diffractive mass = 4.20e+01 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    36.93 mb: rejected    | 
+ |    pT0 =  1.91 gives sigmaInteraction =    52.59 mb: accepted    | 
+ |   diffractive mass = 6.78e+01 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    49.19 mb: rejected    | 
+ |    pT0 =  1.91 gives sigmaInteraction =    68.43 mb: accepted    | 
+ |   diffractive mass = 1.09e+02 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    64.73 mb: accepted    | 
+ |   diffractive mass = 1.76e+02 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =    83.39 mb: accepted    | 
+ |   diffractive mass = 2.85e+02 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   103.07 mb: accepted    | 
+ |   diffractive mass = 4.59e+02 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   125.80 mb: accepted    | 
+ |   diffractive mass = 7.41e+02 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   146.61 mb: accepted    | 
+ |   diffractive mass = 1.20e+03 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   165.19 mb: accepted    | 
+ |   diffractive mass = 1.93e+03 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   181.18 mb: accepted    | 
+ |   diffractive mass = 3.11e+03 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   190.56 mb: accepted    | 
+ |   diffractive mass = 5.02e+03 GeV and sigmaNorm =    47.72 mb    | 
+ |    pT0 =  2.12 gives sigmaInteraction =   193.77 mb: accepted    | 
+ |                                                                  | 
+ *-------  End PYTHIA Multiparton Interactions Initialization  -----* 
+
+ *-------  PYTHIA Flag + Mode + Parm + Word + FVec + MVec + PVec + WVec Settings (changes only)  ------------------* 
+ |                                                                                                                 | 
+ | Name                                          |                      Now |      Default         Min         Max | 
+ |                                               |                          |                                      | 
+ | Beams:eA                                      |                 2510.000 |     7000.000         0.0             | 
+ | Beams:eB                                      |                 2510.000 |     7000.000         0.0             | 
+ | Beams:eCM                                     |                 5020.000 |    14000.000         0.0             | 
+ | Beams:frameType                               |                        2 |            1           1           5 | 
+ | Diffraction:mRefPomP                          |                 5020.000 |    100.00000     1.00000             | 
+ | Diffraction:sigmaRefPomP                      |                 47.72340 |     10.00000     2.00000    40.00000 | 
+ | HadronLevel:all                               |                      off |           on                         | 
+ | MultipartonInteractions:ecmPow                |                      0.0 |      0.21500         0.0     0.50000 | 
+ | MultipartonInteractions:ecmRef                |                 5020.000 |     7000.000     1.00000             | 
+ | MultipartonInteractions:pT0Ref                |                  2.12271 |      2.28000     0.50000    10.00000 | 
+ | Next:numberCount                              |                        0 |         1000           0             | 
+ | Next:numberShowEvent                          |                        0 |            1           0             | 
+ | Next:numberShowInfo                           |                        0 |            1           0             | 
+ | Next:numberShowLHA                            |                        0 |            1           0             | 
+ | Next:numberShowProcess                        |                        0 |            1           0             | 
+ | PDF:PomSet                                    |                       11 |            6                         | 
+ | Random:seed                                   |                500000066 |           -1               900000000 | 
+ | Random:setSeed                                |                       on |          off                         | 
+ | SoftQCD:singleDiffractive                     |                       on |          off                         | 
+ | Tune:ee                                       |                        0 |            7          -1           7 | 
+ | Tune:pp                                       |                        0 |           14          -1          34 | 
+ |                                                                                                                 | 
+ *-------  End PYTHIA Flag + Mode + Parm + Word + FVec + MVec + PVec + WVec Settings  -----------------------------* 
+
+ --------  PYTHIA Particle Data Table (changed only)  ------------------------------------------------------------------------------
+ 
+      id   name            antiName         spn chg col      m0        mWidth      mMin       mMax       tau0    res dec ext vis wid
+             no onMode   bRatio   meMode     products 
+
+ no particle data has been changed from its default value 
+
+ --------  End PYTHIA Particle Data Table  -----------------------------------------------------------------------------------------
+
+ Angantyr Info: Initializing hadronisation processes.
+
+ *-------  PYTHIA Flag + Mode + Parm + Word + FVec + MVec + PVec + WVec Settings (changes only)  ------------------* 
+ |                                                                                                                 | 
+ | Name                                          |                      Now |      Default         Min         Max | 
+ |                                               |                          |                                      | 
+ | Beams:eA                                      |                 2510.000 |     7000.000         0.0             | 
+ | Beams:eB                                      |                 2510.000 |     7000.000         0.0             | 
+ | Beams:eCM                                     |                 5020.000 |    14000.000         0.0             | 
+ | Beams:frameType                               |                        2 |            1           1           5 | 
+ | HeavyIon:mode                                 |                        2 |            1           1           2 | 
+ | Next:numberCount                              |                        0 |         1000           0             | 
+ | Next:numberShowEvent                          |                        0 |            1           0             | 
+ | Next:numberShowInfo                           |                        0 |            1           0             | 
+ | Next:numberShowLHA                            |                        0 |            1           0             | 
+ | Next:numberShowProcess                        |                        0 |            1           0             | 
+ | PartonLevel:all                               |                      off |           on                         | 
+ | ProcessLevel:all                              |                      off |           on                         | 
+ | Random:seed                                   |                500000066 |           -1               900000000 | 
+ | Random:setSeed                                |                       on |          off                         | 
+ | Tune:ee                                       |                        0 |            7          -1           7 | 
+ | Tune:pp                                       |                        0 |           14          -1          34 | 
+ |                                                                                                                 | 
+ *-------  End PYTHIA Flag + Mode + Parm + Word + FVec + MVec + PVec + WVec Settings  -----------------------------* 
+
+ --------  PYTHIA Particle Data Table (changed only)  ------------------------------------------------------------------------------
+ 
+      id   name            antiName         spn chg col      m0        mWidth      mMin       mMax       tau0    res dec ext vis wid
+             no onMode   bRatio   meMode     products 
+
+ no particle data has been changed from its default value 
+
+ --------  End PYTHIA Particle Data Table  -----------------------------------------------------------------------------------------
+
+Running event number: 0
+Running event number: 100
+Running event number: 200
+ PYTHIA Warning in StringFragmentation::fragmentToJunction: bad convergence junction rest frame  
+Running event number: 300
+Running event number: 400
+Running event number: 500
+Running event number: 600
+Running event number: 700
+Running event number: 800
+ PYTHIA Error in StringFragmentation::fragment: stuck in joining  
+ PYTHIA Error in Pythia::forceHadronLevel: hadronLevel failed; try again  
+Running event number: 900
+Running event number: 1000
+Running event number: 1100
+Running event number: 1200
+Running event number: 1300
+Running event number: 1400
+Running event number: 1500
+Running event number: 1600
+Running event number: 1700
+Running event number: 1800
+Running event number: 1900
+Running event number: 2000
+Running event number: 2100
+Running event number: 2200
+Running event number: 2300
+Running event number: 2400
+Running event number: 2500
+Running event number: 2600
+Running event number: 2700
+Running event number: 2800
+Running event number: 2900
+Running event number: 3000
+Running event number: 3100
+Running event number: 3200
+Running event number: 3300
+Running event number: 3400
+Running event number: 3500
+Running event number: 3600
+Running event number: 3700
+Running event number: 3800
+Running event number: 3900
+Running event number: 4000
+ PYTHIA Warning in MultipartonInteractions::pTnext: weight above unity  
+Running event number: 4100
+Running event number: 4200
+Running event number: 4300
+ PYTHIA Warning in SimpleSpaceShower::pT2nextQCD: weight above unity  
+Running event number: 4400
+Running event number: 4500
+Running event number: 4600
+Running event number: 4700
+Running event number: 4800
+Running event number: 4900
+Running event number: 5000
+Running event number: 5100
+Running event number: 5200
+Running event number: 5300
+Running event number: 5400
+ PYTHIA Warning in SimpleSpaceShower::pT2nextQCD: weight above unity  
+Running event number: 5500
+Running event number: 5600
+Running event number: 5700
+Running event number: 5800
+Running event number: 5900
+Running event number: 6000
+Running event number: 6100
+Running event number: 6200
+Running event number: 6300
+Running event number: 6400
+Running event number: 6500
+Running event number: 6600
+Running event number: 6700
+Running event number: 6800
+Running event number: 6900
+Running event number: 7000
+Running event number: 7100
+Running event number: 7200
+Running event number: 7300
+Running event number: 7400
+Running event number: 7500
+Running event number: 7600
+Running event number: 7700
+Running event number: 7800
+Running event number: 7900
+Running event number: 8000
+Running event number: 8100
+Running event number: 8200
+Running event number: 8300
+Running event number: 8400
+Running event number: 8500
+Running event number: 8600
+Running event number: 8700
+Running event number: 8800
+Running event number: 8900
+Running event number: 9000
+Running event number: 9100
+Running event number: 9200
+Running event number: 9300
+Running event number: 9400
+Running event number: 9500
+ PYTHIA Abort from Pythia::forceHadronLevel: hadronLevel failed; giving up  
+Running event number: 9600
+Running event number: 9700
+Running event number: 9800
+Running event number: 9900
+Running event number: 10000
+ PYTHIA Error in SimpleSpaceShower::pT2nearThreshold: stuck in loop  
+Running event number: 10100
+Running event number: 10200
+Running event number: 10300
+Running event number: 10400
+Running event number: 10500
+Running event number: 10600
+Running event number: 10700
+Running event number: 10800
+Running event number: 10900
+Running event number: 11000
+Running event number: 11100
+Running event number: 11200
+Running event number: 11300
+Running event number: 11400
+Running event number: 11500
+Running event number: 11600
+Running event number: 11700
+Running event number: 11800
+Running event number: 11900
+Running event number: 12000
+Running event number: 12100
+Running event number: 12200
+Running event number: 12300
+Running event number: 12400
+Running event number: 12500
+Running event number: 12600
+Running event number: 12700
+Running event number: 12800
+Running event number: 12900
+Running event number: 13000
+Running event number: 13100
+Running event number: 13200
+Running event number: 13300
+Running event number: 13400
+Running event number: 13500
+Running event number: 13600
+Running event number: 13700
+Running event number: 13800
+Running event number: 13900
+Running event number: 14000
+Running event number: 14100
+Running event number: 14200
+Running event number: 14300
+Running event number: 14400
+Running event number: 14500
+Running event number: 14600
+Running event number: 14700
+Running event number: 14800
+Running event number: 14900
+Running event number: 15000
+Running event number: 15100
+Running event number: 15200
+Running event number: 15300
+Running event number: 15400
+Running event number: 15500
+Running event number: 15600
+Running event number: 15700
+Running event number: 15800
+Running event number: 15900
+Running event number: 16000
+Running event number: 16100
+Running event number: 16200
+Running event number: 16300
+Running event number: 16400
+Running event number: 16500
+Running event number: 16600
+Running event number: 16700
+Running event number: 16800
+Running event number: 16900
+Running event number: 17000
+Running event number: 17100
+Running event number: 17200
+Running event number: 17300
+Running event number: 17400
+Running event number: 17500
+Running event number: 17600
+Running event number: 17700
+Running event number: 17800
+Running event number: 17900
+Running event number: 18000
+Running event number: 18100
+Running event number: 18200
+Running event number: 18300
+Running event number: 18400
+Running event number: 18500
+Running event number: 18600
+Running event number: 18700
+Running event number: 18800
+Running event number: 18900
+Running event number: 19000
+Running event number: 19100
+Running event number: 19200
+Running event number: 19300
+Running event number: 19400
+Running event number: 19500
+Running event number: 19600
+Running event number: 19700
+Running event number: 19800
+Running event number: 19900
+Running event number: 20000
+Running event number: 20100
+Running event number: 20200
+Running event number: 20300
+Running event number: 20400
+Running event number: 20500
+Running event number: 20600
+Running event number: 20700
+Running event number: 20800
+Running event number: 20900
+Running event number: 21000
+Running event number: 21100
+Running event number: 21200
+Running event number: 21300
+Running event number: 21400
+Running event number: 21500
+Running event number: 21600
+Running event number: 21700
+Running event number: 21800
+Running event number: 21900
+Running event number: 22000
+Running event number: 22100
+Running event number: 22200
+Running event number: 22300
+Running event number: 22400
+Running event number: 22500
+Running event number: 22600
+Running event number: 22700
+Running event number: 22800
+Running event number: 22900
+Running event number: 23000
+Running event number: 23100
+Running event number: 23200
+Running event number: 23300
+Running event number: 23400
+Running event number: 23500
+Running event number: 23600
+Running event number: 23700
+Running event number: 23800
+Running event number: 23900
+Running event number: 24000
+Running event number: 24100
+Running event number: 24200
+Running event number: 24300
+Running event number: 24400
+Running event number: 24500
+Running event number: 24600
+Running event number: 24700
+Running event number: 24800
+Running event number: 24900
+ PYTHIA Error in StringFragmentation::fragmentToJunction: caught in junction flavour loop  
+Running event number: 25000
+Running event number: 25100
+Running event number: 25200
+Running event number: 25300
+Running event number: 25400
+Running event number: 25500
+Running event number: 25600
+Running event number: 25700
+Running event number: 25800
+Running event number: 25900
+Running event number: 26000
+Running event number: 26100
+Running event number: 26200
+Running event number: 26300
+Running event number: 26400
+Running event number: 26500
+Running event number: 26600
+Running event number: 26700
+Running event number: 26800
+Running event number: 26900
+Running event number: 27000
+Running event number: 27100
+Running event number: 27200
+Running event number: 27300
+Running event number: 27400
+ PYTHIA Warning in HadronWidths::pickMasses: angular momentum and running widths not used  
+Running event number: 27500
+Running event number: 27600
+Running event number: 27700
+Running event number: 27800
+Running event number: 27900
+Running event number: 28000
+Running event number: 28100
+Running event number: 28200
+Running event number: 28300
+Running event number: 28400
+Running event number: 28500
+Running event number: 28600
+Running event number: 28700
+Running event number: 28800
+Running event number: 28900
+Running event number: 29000
+Running event number: 29100
+Running event number: 29200
+Running event number: 29300
+Running event number: 29400
+Running event number: 29500
+Running event number: 29600
+Running event number: 29700
+Running event number: 29800
+Running event number: 29900
+Running event number: 30000
+Running event number: 30100
+Running event number: 30200
+Running event number: 30300
+Running event number: 30400
+Running event number: 30500
+Running event number: 30600
+Running event number: 30700
+Running event number: 30800
+Running event number: 30900
+Running event number: 31000
+Running event number: 31100
+Running event number: 31200
+Running event number: 31300
+Running event number: 31400
+Running event number: 31500
+Running event number: 31600
+Running event number: 31700
+Running event number: 31800
+Running event number: 31900
+Running event number: 32000
+Running event number: 32100
+Running event number: 32200
+Running event number: 32300
+Running event number: 32400
+Running event number: 32500
+Running event number: 32600
+Running event number: 32700
+Running event number: 32800
+Running event number: 32900
+Running event number: 33000
+Running event number: 33100
+Running event number: 33200
+Running event number: 33300
+Running event number: 33400
+Running event number: 33500
+Running event number: 33600
+Running event number: 33700
+Running event number: 33800
+Running event number: 33900
+Running event number: 34000
+Running event number: 34100
+Running event number: 34200
+Running event number: 34300
+Running event number: 34400
+Running event number: 34500
+Running event number: 34600
+Running event number: 34700
+Running event number: 34800
+Running event number: 34900
+Running event number: 35000
+Running event number: 35100
+Running event number: 35200
+Running event number: 35300
+Running event number: 35400
+Running event number: 35500
+Running event number: 35600
+Running event number: 35700
+Running event number: 35800
+Running event number: 35900
+Running event number: 36000
+Running event number: 36100
+Running event number: 36200
+Running event number: 36300
+Running event number: 36400
+Running event number: 36500
+Running event number: 36600
+Running event number: 36700
+Running event number: 36800
+Running event number: 36900
+Running event number: 37000
+Running event number: 37100
+Running event number: 37200
+Running event number: 37300
+Running event number: 37400
+Running event number: 37500
+Running event number: 37600
+Running event number: 37700
+Running event number: 37800
+Running event number: 37900
+Running event number: 38000
+Running event number: 38100
+Running event number: 38200
+Running event number: 38300
+Running event number: 38400
+Running event number: 38500
+Running event number: 38600
+Running event number: 38700
+Running event number: 38800
+Running event number: 38900
+Running event number: 39000
+Running event number: 39100
+Running event number: 39200
+Running event number: 39300
+Running event number: 39400
+Running event number: 39500
+Running event number: 39600
+ PYTHIA Error in SimpleSpaceShower::pT2nearThreshold: stuck in loop  
+Running event number: 39700
+Running event number: 39800
+Running event number: 39900
+Running event number: 40000
+Running event number: 40100
+Running event number: 40200
+Running event number: 40300
+Running event number: 40400
+Running event number: 40500
+Running event number: 40600
+Running event number: 40700
+Running event number: 40800
+Running event number: 40900
+Running event number: 41000
+Running event number: 41100
+Running event number: 41200
+Running event number: 41300
+Running event number: 41400
+Running event number: 41500
+Running event number: 41600
+Running event number: 41700
+Running event number: 41800
+Running event number: 41900
+Running event number: 42000
+Running event number: 42100
+Running event number: 42200
+Running event number: 42300
+Running event number: 42400
+Running event number: 42500
+Running event number: 42600
+Running event number: 42700
+Running event number: 42800
+Running event number: 42900
+Running event number: 43000
+Running event number: 43100
+Running event number: 43200
+Running event number: 43300
+Running event number: 43400
+Running event number: 43500
+Running event number: 43600
+Running event number: 43700
+Running event number: 43800
+Running event number: 43900
+Running event number: 44000
+Running event number: 44100
+Running event number: 44200
+Running event number: 44300
+Running event number: 44400
+Running event number: 44500
+Running event number: 44600
+Running event number: 44700
+Running event number: 44800
+Running event number: 44900
+Running event number: 45000
+Running event number: 45100
+Running event number: 45200
+Running event number: 45300
+Running event number: 45400
+Running event number: 45500
+Running event number: 45600
+Running event number: 45700
+Running event number: 45800
+Running event number: 45900
+Running event number: 46000
+Running event number: 46100
+Running event number: 46200
+Running event number: 46300
+Running event number: 46400
+Running event number: 46500
+Running event number: 46600
+Running event number: 46700
+Running event number: 46800
+Running event number: 46900
+Running event number: 47000
+Running event number: 47100
+Running event number: 47200
+Running event number: 47300
+Running event number: 47400
+Running event number: 47500
+Running event number: 47600
+Running event number: 47700
+Running event number: 47800
+Running event number: 47900
+Running event number: 48000
+Running event number: 48100
+Running event number: 48200
+Running event number: 48300
+Running event number: 48400
+Running event number: 48500
+Running event number: 48600
+Running event number: 48700
+Running event number: 48800
+Running event number: 48900
+Running event number: 49000
+Running event number: 49100
+Running event number: 49200
+Running event number: 49300
+Running event number: 49400
+Running event number: 49500
+Running event number: 49600
+Running event number: 49700
+Running event number: 49800
+Running event number: 49900
+Running event number: 50000
+Running event number: 50100
+Running event number: 50200
+Running event number: 50300
+Running event number: 50400
+Running event number: 50500
+Running event number: 50600
+Running event number: 50700
+Running event number: 50800
+Running event number: 50900
+Running event number: 51000
+Running event number: 51100
+Running event number: 51200
+Running event number: 51300
+Running event number: 51400
+Running event number: 51500
+Running event number: 51600
+Running event number: 51700
+Running event number: 51800
+Running event number: 51900
+Running event number: 52000
+Running event number: 52100
+Running event number: 52200
+Running event number: 52300
+Running event number: 52400
+Running event number: 52500
+Running event number: 52600
+Running event number: 52700
+Running event number: 52800
+Running event number: 52900
+Running event number: 53000
+Running event number: 53100
+Running event number: 53200
+Running event number: 53300
+Running event number: 53400
+Running event number: 53500
+Running event number: 53600
+Running event number: 53700
+Running event number: 53800
+Running event number: 53900
+Running event number: 54000
+Running event number: 54100
+Running event number: 54200
+Running event number: 54300
+Running event number: 54400
+Running event number: 54500
+Running event number: 54600
+Running event number: 54700
+Running event number: 54800
+Running event number: 54900
+Running event number: 55000
+Running event number: 55100
+Running event number: 55200
+Running event number: 55300
+Running event number: 55400
+Running event number: 55500
+Running event number: 55600
+Running event number: 55700
+Running event number: 55800
+Running event number: 55900
+Running event number: 56000
+Running event number: 56100
+Running event number: 56200
+Running event number: 56300
+Running event number: 56400
+Running event number: 56500
+Running event number: 56600
+Running event number: 56700
+Running event number: 56800
+Running event number: 56900
+Running event number: 57000
+Running event number: 57100
+Running event number: 57200
+Running event number: 57300
+Running event number: 57400
+Running event number: 57500
+Running event number: 57600
+Running event number: 57700
+Running event number: 57800
+Running event number: 57900
+Running event number: 58000
+Running event number: 58100
+Running event number: 58200
+Running event number: 58300
+Running event number: 58400
+ PYTHIA Warning in Pythia::check: energy-momentum not quite conserved  
+ PYTHIA Warning in Pythia::check: energy-momentum not quite conserved  
+Running event number: 58500
+Running event number: 58600
+Running event number: 58700
+Running event number: 58800
+Running event number: 58900
+Running event number: 59000
+Running event number: 59100
+Running event number: 59200
+Running event number: 59300
+Running event number: 59400
+Running event number: 59500
+Running event number: 59600
+Running event number: 59700
+Running event number: 59800
+Running event number: 59900
+Running event number: 60000
+Running event number: 60100
+Running event number: 60200
+Running event number: 60300
+Running event number: 60400
+Running event number: 60500
+Running event number: 60600
+Running event number: 60700
+Running event number: 60800
+Running event number: 60900
+Running event number: 61000
+Running event number: 61100
+Running event number: 61200
+Running event number: 61300
+Running event number: 61400
+Running event number: 61500
+Running event number: 61600
+Running event number: 61700
+Running event number: 61800
+Running event number: 61900
+Running event number: 62000
+Running event number: 62100
+Running event number: 62200
+Running event number: 62300
+Running event number: 62400
+Running event number: 62500
+Running event number: 62600
+Running event number: 62700
+Running event number: 62800
+Running event number: 62900
+Running event number: 63000
+Running event number: 63100
+Running event number: 63200
+Running event number: 63300
+Running event number: 63400
+Running event number: 63500
+Running event number: 63600
+Running event number: 63700
+Running event number: 63800
+Running event number: 63900
+Running event number: 64000
+Running event number: 64100
+Running event number: 64200
+Running event number: 64300
+Running event number: 64400
+Running event number: 64500
+Running event number: 64600
+Running event number: 64700
+Running event number: 64800
+Running event number: 64900
+Running event number: 65000
+Running event number: 65100
+Running event number: 65200
+Running event number: 65300
+Running event number: 65400
+Running event number: 65500
+Running event number: 65600
+Running event number: 65700
+Running event number: 65800
+Running event number: 65900
+Running event number: 66000
+Running event number: 66100
+Running event number: 66200
+Running event number: 66300
+Running event number: 66400
+ PYTHIA Warning in SimpleSpaceShower::pT2nextQCD: small daughter PDF  
+Running event number: 66500
+Running event number: 66600
+Running event number: 66700
+Running event number: 66800
+Running event number: 66900
+Running event number: 67000
+Running event number: 67100
+Running event number: 67200
+Running event number: 67300
+Running event number: 67400
+Running event number: 67500
+Running event number: 67600
+Running event number: 67700
+Running event number: 67800
+Running event number: 67900
+Running event number: 68000
+Running event number: 68100
+Running event number: 68200
+Running event number: 68300
+Running event number: 68400
+Running event number: 68500
+Running event number: 68600
+Running event number: 68700
+Running event number: 68800
+Running event number: 68900
+Running event number: 69000
+Running event number: 69100
+Running event number: 69200
+Running event number: 69300
+Running event number: 69400
+Running event number: 69500
+Running event number: 69600
+Running event number: 69700
+Running event number: 69800
+Running event number: 69900
+Running event number: 70000
+Running event number: 70100
+Running event number: 70200
+Running event number: 70300
+Running event number: 70400
+Running event number: 70500
+Running event number: 70600
+Running event number: 70700
+Running event number: 70800
+Running event number: 70900
+Running event number: 71000
+Running event number: 71100
+Running event number: 71200
+Running event number: 71300
+Running event number: 71400
+Running event number: 71500
+Running event number: 71600
+Running event number: 71700
+Running event number: 71800
+Running event number: 71900
+Running event number: 72000
+Running event number: 72100
+Running event number: 72200
+Running event number: 72300
+Running event number: 72400
+Running event number: 72500
+Running event number: 72600
+Running event number: 72700
+Running event number: 72800
+Running event number: 72900
+Running event number: 73000
+Running event number: 73100
+Running event number: 73200
+Running event number: 73300
+Running event number: 73400
+Running event number: 73500
+Running event number: 73600
+Running event number: 73700
+Running event number: 73800
+Running event number: 73900
+Running event number: 74000
+Running event number: 74100
+Running event number: 74200
+Running event number: 74300
+Running event number: 74400
+Running event number: 74500
+Running event number: 74600
+Running event number: 74700
+Running event number: 74800
+Running event number: 74900
+Running event number: 75000
+Running event number: 75100
+Running event number: 75200
+Running event number: 75300
+Running event number: 75400
+Running event number: 75500
+Running event number: 75600
+Running event number: 75700
+Running event number: 75800
+Running event number: 75900
+Running event number: 76000
+Running event number: 76100
+Running event number: 76200
+Running event number: 76300
+Running event number: 76400
+Running event number: 76500
+ PYTHIA Warning in Pythia::check: not quite matched particle energy/momentum/mass  
+ PYTHIA Warning in Pythia::check: not quite matched particle energy/momentum/mass  
+Running event number: 76600
+Running event number: 76700
+Running event number: 76800
+Running event number: 76900
+Running event number: 77000
+Running event number: 77100
+Running event number: 77200
+Running event number: 77300
+Running event number: 77400
+Running event number: 77500
+Running event number: 77600
+Running event number: 77700
+Running event number: 77800
+Running event number: 77900
+Running event number: 78000
+Running event number: 78100
+Running event number: 78200
+Running event number: 78300
+Running event number: 78400
+Running event number: 78500
+Running event number: 78600
+Running event number: 78700
+Running event number: 78800
+Running event number: 78900
+Running event number: 79000
+Running event number: 79100
+Running event number: 79200
+Running event number: 79300
+Running event number: 79400
+Running event number: 79500
+Running event number: 79600
+Running event number: 79700
+Running event number: 79800
+Running event number: 79900
+Running event number: 80000
+Running event number: 80100
+Running event number: 80200
+Running event number: 80300
+Running event number: 80400
+Running event number: 80500
+Running event number: 80600
+Running event number: 80700
+Running event number: 80800
+Running event number: 80900
+Running event number: 81000
+Running event number: 81100
+Running event number: 81200
+Running event number: 81300
+Running event number: 81400
+Running event number: 81500
+Running event number: 81600
+Running event number: 81700
+Running event number: 81800
+Running event number: 81900
+Running event number: 82000
+Running event number: 82100
+Running event number: 82200
+Running event number: 82300
+Running event number: 82400
+Running event number: 82500
+Running event number: 82600
+Running event number: 82700
+Running event number: 82800
+Running event number: 82900
+Running event number: 83000
+Running event number: 83100
+Running event number: 83200
+Running event number: 83300
+Running event number: 83400
+Running event number: 83500
+Running event number: 83600
+Running event number: 83700
+Running event number: 83800
+Running event number: 83900
+Running event number: 84000
+Running event number: 84100
+Running event number: 84200
+Running event number: 84300
+Running event number: 84400
+Running event number: 84500
+Running event number: 84600
+Running event number: 84700
+Running event number: 84800
+Running event number: 84900
+Running event number: 85000
+Running event number: 85100
+Running event number: 85200
+Running event number: 85300
+Running event number: 85400
+Running event number: 85500
+Running event number: 85600
+Running event number: 85700
+Running event number: 85800
+Running event number: 85900
+Running event number: 86000
+Running event number: 86100
+Running event number: 86200
+Running event number: 86300
+Running event number: 86400
+Running event number: 86500
+Running event number: 86600
+Running event number: 86700
+Running event number: 86800
+Running event number: 86900
+Running event number: 87000
+Running event number: 87100
+Running event number: 87200
+Running event number: 87300
+Running event number: 87400
+Running event number: 87500
+Running event number: 87600
+Running event number: 87700
+Running event number: 87800
+Running event number: 87900
+Running event number: 88000
+Running event number: 88100
+Running event number: 88200
+Running event number: 88300
+Running event number: 88400
+Running event number: 88500
+Running event number: 88600
+Running event number: 88700
+Running event number: 88800
+Running event number: 88900
+Running event number: 89000
+Running event number: 89100
+Running event number: 89200
+Running event number: 89300
+Running event number: 89400
+Running event number: 89500
+Running event number: 89600
+Running event number: 89700
+Running event number: 89800
+Running event number: 89900
+Running event number: 90000
+Running event number: 90100
+Running event number: 90200
+Running event number: 90300
+Running event number: 90400
+Running event number: 90500
+Running event number: 90600
+Running event number: 90700
+Running event number: 90800
+Running event number: 90900
+Running event number: 91000
+Running event number: 91100
+Running event number: 91200
+Running event number: 91300
+Running event number: 91400
+Running event number: 91500
+Running event number: 91600
+Running event number: 91700
+Running event number: 91800
+Running event number: 91900
+Running event number: 92000
+Running event number: 92100
+Running event number: 92200
+Running event number: 92300
+Running event number: 92400
+Running event number: 92500
+Running event number: 92600
+Running event number: 92700
+Running event number: 92800
+Running event number: 92900
+Running event number: 93000
+Running event number: 93100
+Running event number: 93200
+Running event number: 93300
+Running event number: 93400
+Running event number: 93500
+Running event number: 93600
+Running event number: 93700
+Running event number: 93800
+Running event number: 93900
+Running event number: 94000
+Running event number: 94100
+Running event number: 94200
+Running event number: 94300
+Running event number: 94400
+Running event number: 94500
+Running event number: 94600
+Running event number: 94700
+Running event number: 94800
+Running event number: 94900
+Running event number: 95000
+Running event number: 95100
+Running event number: 95200
+Running event number: 95300
+Running event number: 95400
+Running event number: 95500
+Running event number: 95600
+Running event number: 95700
+Running event number: 95800
+Running event number: 95900
+Running event number: 96000
+Running event number: 96100
+Running event number: 96200
+Running event number: 96300
+Running event number: 96400
+Running event number: 96500
+Running event number: 96600
+Running event number: 96700
+Running event number: 96800
+Running event number: 96900
+Running event number: 97000
+Running event number: 97100
+Running event number: 97200
+Running event number: 97300
+Running event number: 97400
+Running event number: 97500
+Running event number: 97600
+Running event number: 97700
+Running event number: 97800
+Running event number: 97900
+Running event number: 98000
+Running event number: 98100
+Running event number: 98200
+Running event number: 98300
+Running event number: 98400
+Running event number: 98500
+Running event number: 98600
+Running event number: 98700
+Running event number: 98800
+Running event number: 98900
+Running event number: 99000
+Running event number: 99100
+Running event number: 99200
+Running event number: 99300
+Running event number: 99400
+Running event number: 99500
+Running event number: 99600
+Running event number: 99700
+Running event number: 99800
+Running event number: 99900
+Done!

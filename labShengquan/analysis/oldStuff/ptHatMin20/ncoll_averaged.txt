@@ -1,0 +1,6 @@
+
+double nColl[6] = {1820, 1430, 805, 267, 65.4, 10.7};
+
+from table 1 of https://arxiv.org/pdf/1611.01664.pdf
+
+

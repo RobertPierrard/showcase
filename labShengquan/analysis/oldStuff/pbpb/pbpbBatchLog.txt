@@ -1,0 +1,27 @@
+Batch List ogranized with relavent parameters (hopefully)
+============================================================================
+HardQCD off and pTHatMin not set
+
+ba3:
+600,000 pbpb collisions without pid or impact parameter, copied week of 7/5
+
+ba1:
+600,000 pbpb collisions, copied 7/15
+
+-----------------------------------------------------------------------------
+HardQCD on and pThatMin = 20
+
+ba4: (done?)
+600,000 pbpb collisions, 7/19
+
+-----------------------------------------------------------------------------
+HardQCD on and pThatMin = 10
+
+ba5: (submitted) running
+600,000 pbpb collisions, 7/19
+
+-----------------------------------------------------------------------------
+HardQCD on and pThatMin = 0
+
+ba6: (submitted) running
+600,000 pbpb collisions, 7/19

@@ -1,0 +1,119 @@
+30594055
+jb20
+cn1123
+
+Using impact_param for the following 100 centrality bins: 
+0, 0.127209, 0.178769, 0.218493, 0.251936, 0.281718, 0.309893, 0.334598, 0.357938, 0.380458, 0.401759, 0.422656, 0.443045, 0.461696, 0.480013, 0.497905, 0.516005, 0.533458, 0.55057, 0.566967, 0.583588, 0.599559, 0.615651, 0.63168, 0.647413, 0.662891, 0.678603, 0.694254, 0.709301, 0.724593, 0.739615, 0.754937, 0.769847, 0.78504, 0.800277, 0.814755, 0.829476, 0.844401, 0.859219, 0.874256, 0.889112, 0.903839, 0.91905, 0.934328, 0.949825, 0.965143, 0.98088, 0.996052, 1.01211, 1.02806, 1.04412, 1.06011, 1.07658, 1.09306, 1.11029, 1.12722, 1.14437, 1.16186, 1.17974, 1.19783, 1.21589, 1.23444, 1.25376, 1.27296, 1.29312, 1.31289, 1.33297, 1.35426, 1.37557, 1.39761, 1.41975, 1.44253, 1.4657, 1.48942, 1.51354, 1.53928, 1.56678, 1.59461, 1.6227, 1.65241, 1.68237, 1.71398, 1.74687, 1.78135, 1.8171, 1.8556, 1.89728, 1.9413, 1.98792, 2.03716, 2.09248, 2.15288, 2.21906, 2.29099, 2.37508, 2.47503, 2.59466, 2.74404, 2.94398, 3.29434, 15, 
+
+Inputting root files from filelist...
+Opened 0 files
+
+
+Setting branch addressess.
+Retrieving total number of entries.
+nEvt = 29481044Looping through events...
+
+Complete: 0|  Total: 29481044 | 0%
+Complete: 294811|  Total: 29481044 | 1%
+Complete: 589622|  Total: 29481044 | 2%
+Complete: 884433|  Total: 29481044 | 3%
+Complete: 1179244|  Total: 29481044 | 4%
+Complete: 1474055|  Total: 29481044 | 5%
+Complete: 1768866|  Total: 29481044 | 6%
+Complete: 2063677|  Total: 29481044 | 7%
+Complete: 2358488|  Total: 29481044 | 8%
+Complete: 2653299|  Total: 29481044 | 9%
+Complete: 2948110|  Total: 29481044 | 10%
+Complete: 3242921|  Total: 29481044 | 11%
+Complete: 3537732|  Total: 29481044 | 12%
+Complete: 3832543|  Total: 29481044 | 13%
+Complete: 4127354|  Total: 29481044 | 14%
+Complete: 4422165|  Total: 29481044 | 15%
+Complete: 4716976|  Total: 29481044 | 16%
+Complete: 5011787|  Total: 29481044 | 17%
+Complete: 5306598|  Total: 29481044 | 18%
+Complete: 5601409|  Total: 29481044 | 19%
+Complete: 5896220|  Total: 29481044 | 20%
+Complete: 6191031|  Total: 29481044 | 21%
+Complete: 6485842|  Total: 29481044 | 22%
+Complete: 6780653|  Total: 29481044 | 23%
+Complete: 7075464|  Total: 29481044 | 24%
+Complete: 7370275|  Total: 29481044 | 25%
+Complete: 7665086|  Total: 29481044 | 26%
+Complete: 7959897|  Total: 29481044 | 27%
+Complete: 8254708|  Total: 29481044 | 28%
+Complete: 8549519|  Total: 29481044 | 29%
+Complete: 8844330|  Total: 29481044 | 30%
+Complete: 9139141|  Total: 29481044 | 31%
+Complete: 9433952|  Total: 29481044 | 32%
+Complete: 9728763|  Total: 29481044 | 33%
+Complete: 10023574|  Total: 29481044 | 34%
+Complete: 10318385|  Total: 29481044 | 35%
+Complete: 10613196|  Total: 29481044 | 36%
+Complete: 10908007|  Total: 29481044 | 37%
+Complete: 11202818|  Total: 29481044 | 38%
+Complete: 11497629|  Total: 29481044 | 39%
+Complete: 11792440|  Total: 29481044 | 40%
+Complete: 12087251|  Total: 29481044 | 41%
+Complete: 12382062|  Total: 29481044 | 42%
+Complete: 12676873|  Total: 29481044 | 43%
+Complete: 12971684|  Total: 29481044 | 44%
+Complete: 13266495|  Total: 29481044 | 45%
+Complete: 13561306|  Total: 29481044 | 46%
+Complete: 13856117|  Total: 29481044 | 47%
+Complete: 14150928|  Total: 29481044 | 48%
+Complete: 14445739|  Total: 29481044 | 49%
+Complete: 14740550|  Total: 29481044 | 50%
+Complete: 15035361|  Total: 29481044 | 51%
+Complete: 15330172|  Total: 29481044 | 52%
+Complete: 15624983|  Total: 29481044 | 53%
+Complete: 15919794|  Total: 29481044 | 54%
+Complete: 16214605|  Total: 29481044 | 55%
+Complete: 16509416|  Total: 29481044 | 56%
+Complete: 16804227|  Total: 29481044 | 57%
+Complete: 17099038|  Total: 29481044 | 58%
+Complete: 17393849|  Total: 29481044 | 59%
+Complete: 17688660|  Total: 29481044 | 60%
+Complete: 17983471|  Total: 29481044 | 61%
+Complete: 18278282|  Total: 29481044 | 62%
+Complete: 18573093|  Total: 29481044 | 63%
+Complete: 18867904|  Total: 29481044 | 64%
+Complete: 19162715|  Total: 29481044 | 65%
+Complete: 19457526|  Total: 29481044 | 66%
+Complete: 19752337|  Total: 29481044 | 67%
+Complete: 20047148|  Total: 29481044 | 68%
+Complete: 20341959|  Total: 29481044 | 69%
+Complete: 20636770|  Total: 29481044 | 70%
+Complete: 20931581|  Total: 29481044 | 71%
+Complete: 21226392|  Total: 29481044 | 72%
+Complete: 21521203|  Total: 29481044 | 73%
+Complete: 21816014|  Total: 29481044 | 74%
+Complete: 22110825|  Total: 29481044 | 75%
+Complete: 22405636|  Total: 29481044 | 76%
+Complete: 22700447|  Total: 29481044 | 77%
+Complete: 22995258|  Total: 29481044 | 78%
+Complete: 23290069|  Total: 29481044 | 79%
+Complete: 23584880|  Total: 29481044 | 80%
+Complete: 23879691|  Total: 29481044 | 81%
+Complete: 24174502|  Total: 29481044 | 82%
+Complete: 24469313|  Total: 29481044 | 83%
+Complete: 24764124|  Total: 29481044 | 84%
+Complete: 25058935|  Total: 29481044 | 85%
+Complete: 25353746|  Total: 29481044 | 86%
+Complete: 25648557|  Total: 29481044 | 87%
+Complete: 25943368|  Total: 29481044 | 88%
+Complete: 26238179|  Total: 29481044 | 89%
+Complete: 26532990|  Total: 29481044 | 90%
+Complete: 26827801|  Total: 29481044 | 91%
+Complete: 27122612|  Total: 29481044 | 92%
+Complete: 27417423|  Total: 29481044 | 93%
+Complete: 27712234|  Total: 29481044 | 94%
+Complete: 28007045|  Total: 29481044 | 95%
+Complete: 28301856|  Total: 29481044 | 96%
+Complete: 28596667|  Total: 29481044 | 97%
+Complete: 28891478|  Total: 29481044 | 98%
+Complete: 29186289|  Total: 29481044 | 99%
+
+
+Writing data to file.
+Done!

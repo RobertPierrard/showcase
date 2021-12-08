@@ -1,0 +1,29 @@
+Batch List ogranized with relavent parameters (hopefull)
+============================================================================
+HardQCD on and pTHatMin = 20
+
+ba1:
+1,000,000 pp collisions without pid or impact parameter, copied week of 7/5
+
+ba5:
+600,000 pp collisions, copied 7/16
+
+-----------------------------------------------------------------------------
+HardQCD off
+
+ba2: (submitted)
+600k pp collisions, 7/19
+
+
+-----------------------------------------------------------------------------
+HardQCD on and pTHatMin = 10
+
+ba3: (submitted)
+600k pp collisions, 7/19
+
+-----------------------------------------------------------------------------
+HardQCD on and pTHatMin = 0
+
+ba4: (submitted)
+600k pp collisions, 7/19
+
