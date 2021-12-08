@@ -4,16 +4,18 @@ writing lab reports.
 
 These three labs demonstrate my strength as a scientic writer and an effective communicator.
 
-Double_Slit_Lab:
+DoubleSlit_LabPlusCode:
     Reproduced the famous double slit experiment in the single photon limit and analyze several
-    other diffractive patterns. Demonstrate the wave-particle duality of light.
+    other diffractive patterns. Demonstrate the wave-particle duality of light. Includes code for
+    data analysis at the end.
     
 Electron_Lab:
     Use Helmholtz coils and an electron gun to calculate the charge-to-mass ratio of the electron.
     Further investigate the diffractive patterns produced when electrons are fired at gold foil.
     
-Hall_Effect_Lab_Report:
+HallEffect_LabPlusCode:
     Map the magnetic field of a large magnet and use a Hall sensor to measure the deflection of
     electrons when passing through the field. Unsuccessful in determining the charge of the
-    electron, we do not know the current directions of our devices.
+    electron, we do not know the current directions of our devices. Includes code for data analysis
+    at the end.
                   
