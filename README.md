@@ -6,7 +6,7 @@ If you are from an admissions department, I hope you can see the care put into m
 
 For my code, I hope you find it well organized and that it shows proficiency in various CS concepts.
 
-Note: Two of the folder in this repository are incomplete becuase they show my ongoing research. However, they are still indicative of my work. They are the labBagheri and labShengquan folders.
+Note: Two of the folder in this repository are incomplete becuase they show my ongoing research, which is incomplete. Both folders are still indicative of my work, they are the labBagheri and labShengquan folders.
 
 Best Regards,
 
