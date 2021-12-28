@@ -1,1 +1,10 @@
-This folder captures my ongoing work in Professor Nepomuk Otte's research group at Georgia Tech...
+This folder captures my ongoing work in Professor Nepomuk Otte's research group at Georgia Tech. We are working to develop
+a high altituded Chrenkov telescope, the first of its kind. I am helping the project by coding the flight computer. The
+flight computer processes data from. Various hardware inputs to piece together a detection event.
+
+  * TBDecoder.cpp is a class which processes binary data produced by the TriggerBoard, a device which provides data about the time and general
+    location of events.
+  * PixelMapDecoder.cpp is a collection of functions which can be used to relate relavent parametes stored in the csv Pixel_Map.csv
+  * EventBuilderReformatted.cpp is the main class of this project. It takes data from the TriggerBoard, by using TBDecoder.cpp, and from
+    another device, the CoBo, to write events in the ROOT data format. These events will later be processed to determine priority for
+    transmission to the ground.
